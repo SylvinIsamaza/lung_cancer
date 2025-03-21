@@ -38,11 +38,7 @@ const Footer = () => {
                   Education
                 </NavLink>
               </li>
-              <li>
-                <NavLink to="/about" className="text-sm hover:text-medical-600 transition-colors">
-                  About
-                </NavLink>
-              </li>
+   
             </ul>
           </div>
 
@@ -50,32 +46,23 @@ const Footer = () => {
             <h4 className="font-medium text-sm uppercase tracking-wider text-gray-500 mb-4">Legal</h4>
             <ul className="space-y-2">
               <li>
-                <NavLink to="/terms" className="text-sm hover:text-medical-600 transition-colors">
+                <NavLink to="#" className="text-sm hover:text-medical-600 transition-colors">
                   Terms of Service
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/privacy" className="text-sm hover:text-medical-600 transition-colors">
+                <NavLink to="#" className="text-sm hover:text-medical-600 transition-colors">
                   Privacy Policy
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/disclaimer" className="text-sm hover:text-medical-600 transition-colors">
+                <NavLink to="#" className="text-sm hover:text-medical-600 transition-colors">
                   Medical Disclaimer
                 </NavLink>
               </li>
             </ul>
           </div>
 
-          <div>
-            <h4 className="font-medium text-sm uppercase tracking-wider text-gray-500 mb-4">Contact</h4>
-            <ul className="space-y-2">
-              <li className="text-sm">support@lungcheck.example</li>
-              <li className="text-sm">+1 (555) 123-4567</li>
-              <li className="text-sm">123 Medical Plaza, Suite 400</li>
-              <li className="text-sm">San Francisco, CA 94103</li>
-            </ul>
-          </div>
         </div>
 
         <div className="border-t mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
