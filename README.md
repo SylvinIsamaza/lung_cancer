@@ -73,8 +73,3 @@ npm run dev
 
 When running the backend server, visit:
 - Swagger UI: `http://localhost:8000/docs`
-- ReDoc: `http://localhost:8000/redoc`
-
-## License
-
-[Add your license here]
